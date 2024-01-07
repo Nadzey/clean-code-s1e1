@@ -32,7 +32,7 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
-    listItem.className="entry-form__list-item"
+    listItem.className="entry-form__list-item edit-mode"
 
     label.innerText=taskString;
     label.className='entry-form__label';
@@ -98,9 +98,11 @@ var editTask=function(){
         //label becomes the inputs value.
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
+        editInput.style.display = "none";
     }else{
         editInput.value=label.innerText;
         editBtn.innerText="Save";
+        editInput.style.display = "inline-block";
     }
 
     //toggle .editmode on the parent.

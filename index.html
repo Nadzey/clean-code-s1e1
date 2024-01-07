@@ -13,13 +13,15 @@
         <section class="entry-form">
             <div class="entry-form__add-item">
                 <h3 class="entry-form__title">Add Item</h3>
-                <input class="entry-form__input" id="new-task" type="text">
-                <button class="entry-form__button edit" type="submit">Add</button>
-            </div>
+                <div class="entry-form__controls">
+                    <input class="entry-form__input" id="new-task" type="text">
+                    <button class="entry-form__button edit" type="submit">Add</button>
+                </div>
+            </div>            
             <div class="entry-form__tasks">
                 <h3>Todo</h3>
                 <ul class="entry-form__list" id="incomplete-tasks">
-                    <li class="entry-form__list-item">
+                    <li class="entry-form__list-item edit-mode">
                         <input class="entry-form__checkbox" type="checkbox">
                         <label class="entry-form__label">Pay Bills</label>
                         <input class="entry-form__input" type="text">
@@ -38,7 +40,7 @@
             <div class="entry-form__completed-task">
                 <h3>Completed</h3>
                 <ul class="entry-form__list" id="completed-tasks">
-                    <li class="entry-form__list-item">
+                    <li class="entry-form__list-item completed-mode">
                         <input class="entry-form__checkbox" type="checkbox" checked>
                         <label class="entry-form__label">See the Doctor</label>
                         <input class="entry-form__input" type="text">

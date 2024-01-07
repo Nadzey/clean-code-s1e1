@@ -15,19 +15,19 @@ body {
     text-align: right;
 }
 
-.header-image {
+.header__image {
     width: 100%;
 }
 
-.header-addition-information {
+.header__addition-information {
     font-family: fantasy, cursive;
 }
 
-.add-item .task-input {
+.entry-form__add-item .entry-form__input {
     margin-top: 20px;
 }
 
-.task-input {
+.entry-form__input {
     font-size: 18px;
     line-height: 18px;
     height: 21px;
@@ -40,7 +40,7 @@ body {
     width: 318px;
 }
 
-.task-input:focus {
+.entry-form__input:focus {
     color: #333;
 }
 
@@ -94,7 +94,7 @@ li > * {
     vertical-align: middle;
 }
 
-.entry-form-checkbox {
+.entry-form__checkbox {
     margin: 0 10px;
 }
 

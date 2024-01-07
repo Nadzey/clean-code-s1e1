@@ -7,43 +7,43 @@
     </head>
     <body>
         <header class="header">
-            <img class="header-image" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
-            <a class="header-addition-information" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+            <img class="header__image" src="./eisenhower-matrix.jpg" alt="The Eisenhower Matrix">
+            <a class="header__addition-information" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
         </header>
         <section class="entry-form">
-            <div class="add-item">
-                <h3 class="add-item-title">Add Item</h3>
-                <input class="task-input" id="new-task" type="text">
-                <button class="edit" type="submit">Add</button>
+            <div class="entry-form__add-item">
+                <h3 class="entry-form__title">Add Item</h3>
+                <input class="entry-form__input" id="new-task" type="text">
+                <button class="entry-form__button edit" type="submit">Add</button>
             </div>
-            <div class="todo">
+            <div class="entry-form__tasks">
                 <h3>Todo</h3>
-                <ul id="incomplete-tasks">
-                    <li class="tasks-mode">
-                        <input class="entry-form-checkbox" type="checkbox">
-                        <label class="task">Pay Bills</label>
-                        <input class="task-input" type="text">
-                        <button class="edit">Edit</button>
-                        <button class="delete"><img src="./remove.svg"></button>
+                <ul class="entry-form__list" id="incomplete-tasks">
+                    <li class="entry-form__list-item">
+                        <input class="entry-form__checkbox" type="checkbox">
+                        <label class="entry-form__label">Pay Bills</label>
+                        <input class="entry-form__input" type="text">
+                        <button class="entry-form__button edit">Edit</button>
+                        <button class="entry-form__button delete"><img src="./remove.svg"></button>
                     </li>
-                    <li class="tasks-mode save-mode">
-                        <input class="entry-form-checkbox" type="checkbox">
-                        <label class="task">Go Shopping</label>
-                        <input class="task-input" type="text" value="Go Shopping">
-                        <button class="edit">Save</button>
-                        <button class="delete"><img src="./remove.svg"></button>
+                    <li class="entry-form__list-item save-mode">
+                        <input class="entry-form__checkbox" type="checkbox">
+                        <label class="entry-form__label">Go Shopping</label>
+                        <input class="entry-form__input" type="text" value="Go Shopping">
+                        <button class="entry-form__button edit">Save</button>
+                        <button class="entry-form__button delete"><img src="./remove.svg"></button>
                     </li>
                 </ul>
             </div>
-            <div class="completed-task">
+            <div class="entry-form__completed-task">
                 <h3>Completed</h3>
-                <ul id="completed-tasks">
-                    <li class="tasks-mode">
-                        <input class="entry-form-checkbox" type="checkbox" checked>
-                        <label class="task">See the Doctor</label>
-                        <input class="task-input" type="text">
-                        <button class="edit">Edit</button>
-                        <button class="delete"><img src="./remove.svg"></button>
+                <ul class="entry-form__list" id="completed-tasks">
+                    <li class="entry-form__list-item">
+                        <input class="entry-form__checkbox" type="checkbox" checked>
+                        <label class="entry-form__label">See the Doctor</label>
+                        <input class="entry-form__input" type="text">
+                        <button class="entry-form__button edit">Edit</button>
+                        <button class="entry-form__button delete"><img src="./remove.svg"></button>
                     </li>
                 </ul>
             </div>

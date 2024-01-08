@@ -79,13 +79,13 @@ ul {
     color: #3a3A3a;
 }
 
-.delete img {
+.entry-form__button-image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.entry-form__button-image:hover {
     transform: rotateZ(0);
 }
 
@@ -116,7 +116,7 @@ ul {
 }
 
 /* Completed */
-#completed-tasks .entry-form__label {
+.completed-mode .entry-form__label {
     text-decoration: line-through;
     color: #888;
 }

@@ -90,7 +90,7 @@ ul {
 }
 
 /* Heading */
-h3 {
+.entry-form__title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -116,7 +116,7 @@ h3 {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .entry-form__label {
     text-decoration: line-through;
     color: #888;
 }

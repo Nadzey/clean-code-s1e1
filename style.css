@@ -9,7 +9,7 @@ body {
 ul {
     padding-inline-start: 0;
     margin-block-start: 0;
-    margin-inline-end: 0
+    margin-inline-end: 0;
 }
 
 .header, 
@@ -28,7 +28,7 @@ ul {
 
 .header__addition-information {
     font-family: fantasy, cursive;
-    font-size: 16px
+    font-size: 16px;
 }
 
 .entry-form {
@@ -118,7 +118,7 @@ h3 {
 /* Completed */
 #completed-tasks label {
     text-decoration: line-through;
-    color: #888
+    color: #888;
 }
 
 /* Edit Task */

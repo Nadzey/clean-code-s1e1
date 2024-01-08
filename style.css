@@ -5,8 +5,15 @@ body {
     font-size: 18px;
 }
 
-.header, 
-.entry-form {
+/* reset parameters for ul tag*/
+
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0
+}
+
+.header, .entry-form {
     width: 500px;
     margin: 0 auto;
 }
@@ -21,7 +28,7 @@ body {
 
 .header__addition-information {
     font-family: fantasy, cursive;
-    font-size: 16px;
+    font-size: 16px
 }
 
 .entry-form {
@@ -57,8 +64,7 @@ body {
     flex-basis: auto; 
 }
 
-.edit,
-.delete {
+.edit, .delete {
     background: none;
     border: 0;
     color: #888;
@@ -93,6 +99,7 @@ h3 {
 }
 
 /* Task list */
+
 .entry-form__list-item {
     overflow: hidden;
     padding: 20px 0;
@@ -108,12 +115,14 @@ h3 {
 }
 
 /* Completed */
+
 #completed-tasks label {
     text-decoration: line-through;
-    color: #888;
+    color: #888
 }
 
 /* Edit Task */
+
 .edit-mode .entry-form__input,
 .completed-mode .entry-form__input,
 .save-mode label {
@@ -123,10 +132,4 @@ h3 {
 .entry-form__label {
     flex-grow: 1;
     padding-left: 10px;
-}
-
-ul {
-    padding-inline-start: 0;
-    margin-block-start: 0;
-    margin-inline-end: 0;
 }
